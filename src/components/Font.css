@@ -1,1 +1,143 @@
 
+
+
+ .text-backgroundColor { 
+  
+    background-color: #af2323; 
+    color: #fff;  
+  }
+
+  .background { 
+    background: rgb(35, 175, 218); 
+    background-blend-mode: darken; 
+    background-size: cover; 
+  } 
+
+  .rightnav { 
+    width: 30%; 
+    text-align: right; 
+  } 
+  .nav-list li { 
+    list-style: none; 
+    color: #bb7777;  
+    padding: 26px 30px; 
+  } 
+  
+  .nav-list li a { 
+    text-decoration: none; 
+    color: rgb(224, 217, 217)333; 
+  } 
+  
+  .nav-list li a:hover { 
+    color: rgb(214, 17, 17); 
+  } 
+
+  * { 
+    margin: 0; 
+    padding: 0; 
+  } 
+  
+  .navbar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: sticky; 
+    top: 0; 
+    cursor: pointer; 
+  } 
+  
+  
+  
+  .nav-list { 
+    width: 70%; 
+    display: flex; 
+    align-items: center; 
+  } 
+  
+  #search { 
+    padding: 15px; 
+    font-size: 17px; 
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 15px; 
+  } 
+  
+  .box-main { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+     color: rgb(169, 225, 65);
+     max-width: 100%; 
+    margin: auto; 
+    height: 100%; 
+    
+  } 
+  
+     
+  .section { 
+    height: 200px; 
+    display: flex; 
+    align-items: center; 
+  
+    padding: 30px 0;
+    justify-content: space-between; 
+  } 
+ 
+    .footer {
+        background-color: rgb(35, 175, 218); 
+        clear: both;
+        position: relative;
+       
+        margin-top: 100px;
+    }
+   .text-footer { 
+        text-align: center; 
+        padding: 30px 0; 
+        font-family: 'Ubuntu', sans-serif; 
+        display: flex; 
+        justify-content: center; 
+        color: #ffffff; 
+       
+    } 
+ 
+ 
+  .App-header {
+   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .wrap {
+    float:left;
+    margin:5px;
+  }
+  
+  .secondhalf { 
+    width: 30%; 
+  } 
+
+  
+
+  .btn { 
+  margin-left: 20px; 
+  height: 33px; 
+  width: 70px; 
+  color: #fff; 
+  background-color: #000; 
+  cursor: pointer; 
+  } 
+  
+  .btn-sm { 
+    padding: 6px 10px; 
+    vertical-align: middle; 
+  } 
+  
+  
+   
+  .center { 
+    text-align: center; 
+  } 
+    
